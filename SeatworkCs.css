@@ -1,0 +1,167 @@
+body{
+    background-image: url(Cosmos.jpg);
+}
+h1{
+    font-family: sans-serif;
+    color: aqua;
+    text-align: center;
+}
+marquee{
+    color: aqua;
+    font-size: large;
+    font-family: sans-serif;
+}
+img.one{
+    position: absolute;
+    top: 220px;
+    left: 150px;
+    height:505px;
+    width: 500px;
+    border-radius: 15px;
+    border-style: ridge;
+    
+}
+img.two{
+    position: absolute;
+    top: 170px;
+    left: 660px;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border-style: ridge;
+}
+img.three{
+    position: absolute;
+    top: 170px;
+    left: 820px;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border-style: ridge;
+}
+img.four{
+    position: absolute;
+    top: 170px;
+    left: 980px;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border-style: ridge;
+}
+img.five{
+    position: absolute;
+    top: 170px;
+    left: 1140px;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border-style: ridge;
+}
+img.six{
+    position: absolute;
+    top: 332px;
+    left: 660px;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border-style: ridge;
+}
+img.seven{
+    position: absolute;
+    top: 332px;
+    left: 820px;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border-style: ridge;
+}
+img.eight{
+    position: absolute;
+    top: 332px;
+    left: 980px;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border-style: ridge;
+}
+img.nine{
+    position: absolute;
+    top: 332px;
+    left: 1140px;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border-style: ridge;
+}
+img.ten{
+    position: absolute;
+    top: 494px;
+    left: 660px;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border-style: ridge;
+}
+img.eleven{
+    position: absolute;
+    top: 494px;
+    left: 820px;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border-style: ridge;
+}
+img.twelve{
+    position: absolute;
+    top: 494px;
+    left: 980px;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border-style: ridge;
+}
+img.thirteen{
+    position: absolute;
+    top: 494px;
+    left: 1140px;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border-style: ridge;
+}
+img.fourteen{
+    position: absolute;
+    top: 656px;
+    left: 660px;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border-style: ridge;
+}
+img.fifteen{
+    position: absolute;
+    top: 656px;
+    left: 820px;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border-style: ridge;
+}
+img.sixteen{
+    position: absolute;
+    top: 656px;
+    left: 980px;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border-style: ridge;
+}
+img.seventeen{
+    position: absolute;
+    top: 656px;
+    left: 1140px;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border-style: ridge;
+}
