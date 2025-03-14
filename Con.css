@@ -1,0 +1,153 @@
+body {
+    background: url(back.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    overflow: hidden;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    backdrop-filter: blur(7px);
+    flex-wrap: wrap;
+}
+h1{
+    color:white;
+    font-family: Helvetica;
+    flex: auto;
+    font-size: 18px;
+    font-weight: light;
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color:white;
+    margin: -6px;
+}
+nav {
+    display: flex;
+    gap: 50px;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    font-size: 16px; 
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+nav a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    background:white;
+    bottom: -6px;
+    transition:  0.3s ease-in-out;
+}
+nav a.act3:hover, nav a.act3{
+    color:white;
+    border-bottom: 3px solid white;
+}
+nav a.active:hover::after {
+    width: 100%; 
+    border-bottom: 3px solid white;
+}
+nav a.act2:hover::after{
+    width: 100%; 
+    border-bottom: 3px solid white;
+}
+
+.Logo{
+    width: 80px;
+    height: auto;
+}
+.ContactUs {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background:transparent;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    color: white;
+}
+
+.ContactUs h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.ContactUs input, 
+.ContactUs textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+}
+
+.ContactUs button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flexcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+    margin-top: 20px;
+    flex-wrap: wrap; 
+}
+.flexcon > div {
+    display: flex;
+    backdrop-filter: blur(15px); 
+    padding: 15px 50px;
+    border-radius: 20px; 
+    border-style: solid;
+    color: white;
+}
+.flexcon a {
+    display: flex;
+    transition: transform 0.3s ease-in-out; 
+}
+.flexcon a:hover {
+    transform: scale(1.1); 
+}
+.flexcon img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+    @media screen and (max-width: 768px) {
+        header {
+            flex-direction: column;
+            text-align: center;
+            padding: 15px;
+        }
+        nav a{
+            flex-direction: column;
+            text-align: right;
+            gap: 10px;
+        }
+    
+        .Logo {
+            width: 40px; 
+            margin-bottom: 10px;
+        }
+    }

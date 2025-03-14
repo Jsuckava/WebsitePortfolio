@@ -1,0 +1,128 @@
+body {
+    background: url(back.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    outline: none;
+    overflow: hidden;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    backdrop-filter: blur(7px);
+    flex-wrap: wrap;
+}
+h1{
+    color: white;
+    font-family: Helvetica;
+    flex: auto;
+    font-size: 18px;
+    font-weight: light;
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: white;
+    margin: -6px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+button.b1 , button.b2, button.b3, button.b4, button.b5, button.b6{  
+    background: transparent url(back2.gif);
+    text-align: center;
+    backdrop-filter: blur(10px); 
+    padding: 15px 50px;
+    border-style:  transparent solid;
+    border-radius: 10px;
+}
+button.b7{
+    background: transparent url(back4.gif);
+    text-align: center;
+    backdrop-filter: blur(10px); 
+    padding: 15px 50px;
+    border-style:  transparent solid;
+    border-radius: 10px;
+}
+.container, button.b1, a{
+    text-decoration: none;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: medium;
+    font-size: medium;
+}
+nav {
+    display: flex;
+    gap: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px; 
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+nav a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    background: white;
+    bottom: -6px;
+    transition:  0.3s ease-in-out;
+}
+nav a.active:hover::after {
+    width: 100%; 
+    border-bottom: 3px solid white;
+}
+nav a.act3:hover::after {
+    width: 100%; 
+    border-bottom: 3px solid white;
+
+}
+nav a.act2:hover, nav a.act2{
+    color: white;
+    border-bottom: 3px solid white;
+ 
+}
+.Logo{
+    width: 80px;
+    height: auto;
+}
+
+
+
+
+
+    @media screen and (max-width: 768px) {
+        header {
+            flex-direction: column;
+            text-align: center;
+            padding: 15px;
+        }
+        nav a{
+            flex-direction: column;
+            text-align: right;
+            gap: 10px;
+        }
+    
+        .Logo {
+            width: 40px; 
+            margin-bottom: 10px;
+        }
+    }
